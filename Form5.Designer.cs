@@ -58,6 +58,7 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.copyToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inverterManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.summaryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolbarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolbarMenuDescriptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,7 +100,6 @@
             this.Vdrun = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.VdrunMax = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SelectedCable = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.inverterManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -260,7 +260,7 @@
             this.moveRowUpToolStripMenuItem.Image = global::Test1.Properties.Resources.iconfinder_arrow_up_circle_3313574__1_;
             this.moveRowUpToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.moveRowUpToolStripMenuItem.Name = "moveRowUpToolStripMenuItem";
-            this.moveRowUpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.moveRowUpToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.moveRowUpToolStripMenuItem.Text = "Move Row Up";
             this.moveRowUpToolStripMenuItem.Click += new System.EventHandler(this.MoveRowUpToolStripMenuItem_Click);
             // 
@@ -270,14 +270,14 @@
             this.moveRowDownToolStripMenuItem.Image = global::Test1.Properties.Resources.iconfinder_arrow_down_circle_3313573__1_;
             this.moveRowDownToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.moveRowDownToolStripMenuItem.Name = "moveRowDownToolStripMenuItem";
-            this.moveRowDownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.moveRowDownToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.moveRowDownToolStripMenuItem.Text = "Move Row Down";
             this.moveRowDownToolStripMenuItem.Click += new System.EventHandler(this.MoveRowDownToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(168, 6);
             // 
             // deleteRowToolStripMenuItem
             // 
@@ -285,7 +285,7 @@
             this.deleteRowToolStripMenuItem.Image = global::Test1.Properties.Resources.DeleteTableRow_16x;
             this.deleteRowToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteRowToolStripMenuItem.Name = "deleteRowToolStripMenuItem";
-            this.deleteRowToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deleteRowToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.deleteRowToolStripMenuItem.Text = "Delete Row";
             this.deleteRowToolStripMenuItem.Click += new System.EventHandler(this.DeleteRowToolStripMenuItem_Click);
             // 
@@ -294,7 +294,7 @@
             this.deleteAllToolStripMenuItem.Image = global::Test1.Properties.Resources.DeleteTable_16x;
             this.deleteAllToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteAllToolStripMenuItem.Name = "deleteAllToolStripMenuItem";
-            this.deleteAllToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deleteAllToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.deleteAllToolStripMenuItem.Text = "Delete All";
             this.deleteAllToolStripMenuItem.Click += new System.EventHandler(this.DeleteAllToolStripMenuItem_Click);
             // 
@@ -304,20 +304,20 @@
             this.editRowDataToolStripMenuItem.Image = global::Test1.Properties.Resources.Edit_16x;
             this.editRowDataToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.editRowDataToolStripMenuItem.Name = "editRowDataToolStripMenuItem";
-            this.editRowDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editRowDataToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.editRowDataToolStripMenuItem.Text = "Edit Row Data";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(168, 6);
             // 
             // copyToClipboardToolStripMenuItem
             // 
             this.copyToClipboardToolStripMenuItem.Image = global::Test1.Properties.Resources.Copy_16x;
             this.copyToClipboardToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.copyToClipboardToolStripMenuItem.Name = "copyToClipboardToolStripMenuItem";
-            this.copyToClipboardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.copyToClipboardToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.copyToClipboardToolStripMenuItem.Text = "Copy to Clipboard";
             this.copyToClipboardToolStripMenuItem.Click += new System.EventHandler(this.CopyToClipboardToolStripMenuItem_Click);
             // 
@@ -332,10 +332,16 @@
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "View";
             // 
+            // inverterManagerToolStripMenuItem
+            // 
+            this.inverterManagerToolStripMenuItem.Name = "inverterManagerToolStripMenuItem";
+            this.inverterManagerToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.inverterManagerToolStripMenuItem.Text = "Inverter Manager";
+            // 
             // summaryToolStripMenuItem
             // 
             this.summaryToolStripMenuItem.Name = "summaryToolStripMenuItem";
-            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.summaryToolStripMenuItem.Text = "Cable Summary";
             this.summaryToolStripMenuItem.Click += new System.EventHandler(this.SummaryToolStripMenuItem_Click);
             // 
@@ -345,7 +351,7 @@
             this.toolbarMenuDescriptionToolStripMenuItem,
             this.showToolStripMenuItem});
             this.toolbarToolStripMenuItem.Name = "toolbarToolStripMenuItem";
-            this.toolbarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.toolbarToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.toolbarToolStripMenuItem.Text = "Toolbar";
             // 
             // toolbarMenuDescriptionToolStripMenuItem
@@ -563,9 +569,9 @@
             this.label1.Location = new System.Drawing.Point(322, 58);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 17);
+            this.label1.Size = new System.Drawing.Size(145, 17);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Cable Summary";
+            this.label1.Text = "Cabling by Inverter";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // No
@@ -774,12 +780,6 @@
             this.SelectedCable.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.SelectedCable.Width = 77;
             // 
-            // inverterManagerToolStripMenuItem
-            // 
-            this.inverterManagerToolStripMenuItem.Name = "inverterManagerToolStripMenuItem";
-            this.inverterManagerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.inverterManagerToolStripMenuItem.Text = "Inverter Manager";
-            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -799,7 +799,7 @@
             this.MinimumSize = new System.Drawing.Size(816, 522);
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Cable Summary";
+            this.Text = "Cabling By Inverter";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form5_FormClosing);
             this.Load += new System.EventHandler(this.Form5_Load);
             this.menuStrip1.ResumeLayout(false);
