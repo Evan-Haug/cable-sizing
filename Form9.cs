@@ -650,7 +650,7 @@ namespace Test1
             }
             else if (comboBox3.Text == "DC")
             {
-                comboBox5.Items.Insert(0, 2);
+                comboBox5.Items.Insert(0, 1);
 
                 comboBox2.Items.Insert(0, "Feeder");
 
