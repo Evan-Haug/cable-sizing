@@ -133,7 +133,7 @@
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             this.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Column3.Width = 95;
+            this.Column3.Width = 96;
             // 
             // Column4
             // 
@@ -176,7 +176,7 @@
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.CloseToolStripMenuItem_Click);
             // 
@@ -190,6 +190,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
